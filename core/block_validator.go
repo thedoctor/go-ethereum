@@ -348,6 +348,9 @@ func calcDifficultyFrontier(time, parentTime uint64, parentNumber, parentDiff *b
 // The result may be modified by the caller.
 // This is miner strategy, not consensus protocol.
 func CalcGasLimit(parent *types.Block) *big.Int {
+	// Force block GasLimit to remain constant forever.
+	return parent.GasLimit()
+
 	// contrib = (parentGasUsed * 3 / 2) / 1024
 	contrib := new(big.Int).Mul(parent.GasUsed(), big.NewInt(3))
 	contrib = contrib.Div(contrib, big.NewInt(2))
