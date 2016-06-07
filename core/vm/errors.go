@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/GemHQ/go-ethereum/params"
 )
 
 var OutOfGasError = errors.New("Out of gas")

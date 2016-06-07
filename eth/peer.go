@@ -23,13 +23,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/eth/downloader"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/rlp"
+	"github.com/GemHQ/go-ethereum/common"
+	"github.com/GemHQ/go-ethereum/core/types"
+	"github.com/GemHQ/go-ethereum/eth/downloader"
+	"github.com/GemHQ/go-ethereum/logger"
+	"github.com/GemHQ/go-ethereum/logger/glog"
+	"github.com/GemHQ/go-ethereum/p2p"
+	"github.com/GemHQ/go-ethereum/rlp"
 	"gopkg.in/fatih/set.v0"
 )
 

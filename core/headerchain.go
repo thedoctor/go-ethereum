@@ -26,12 +26,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/pow"
+	"github.com/GemHQ/go-ethereum/common"
+	"github.com/GemHQ/go-ethereum/core/types"
+	"github.com/GemHQ/go-ethereum/ethdb"
+	"github.com/GemHQ/go-ethereum/logger"
+	"github.com/GemHQ/go-ethereum/logger/glog"
+	"github.com/GemHQ/go-ethereum/pow"
 	"github.com/hashicorp/golang-lru"
 )
 

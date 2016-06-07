@@ -40,11 +40,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
-	"github.com/ethereum/go-ethereum/pow"
+	"github.com/GemHQ/go-ethereum/common"
+	"github.com/GemHQ/go-ethereum/crypto"
+	"github.com/GemHQ/go-ethereum/logger"
+	"github.com/GemHQ/go-ethereum/logger/glog"
+	"github.com/GemHQ/go-ethereum/pow"
 )
 
 var (

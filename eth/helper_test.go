@@ -26,14 +26,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discover"
+	"github.com/GemHQ/go-ethereum/common"
+	"github.com/GemHQ/go-ethereum/core"
+	"github.com/GemHQ/go-ethereum/core/types"
+	"github.com/GemHQ/go-ethereum/crypto"
+	"github.com/GemHQ/go-ethereum/ethdb"
+	"github.com/GemHQ/go-ethereum/event"
+	"github.com/GemHQ/go-ethereum/p2p"
+	"github.com/GemHQ/go-ethereum/p2p/discover"
 )
 
 var (
