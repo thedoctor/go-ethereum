@@ -24,14 +24,14 @@ import (
 	"os/signal"
 	"regexp"
 
-	"github.com/gemhq/go-ethereum/common"
-	"github.com/gemhq/go-ethereum/core"
-	"github.com/gemhq/go-ethereum/core/types"
-	"github.com/gemhq/go-ethereum/internal/debug"
-	"github.com/gemhq/go-ethereum/logger"
-	"github.com/gemhq/go-ethereum/logger/glog"
-	"github.com/gemhq/go-ethereum/node"
-	"github.com/gemhq/go-ethereum/rlp"
+	"github.com/thedoctor/go-ethereum/common"
+	"github.com/thedoctor/go-ethereum/core"
+	"github.com/thedoctor/go-ethereum/core/types"
+	"github.com/thedoctor/go-ethereum/internal/debug"
+	"github.com/thedoctor/go-ethereum/logger"
+	"github.com/thedoctor/go-ethereum/logger/glog"
+	"github.com/thedoctor/go-ethereum/node"
+	"github.com/thedoctor/go-ethereum/rlp"
 )
 
 const (

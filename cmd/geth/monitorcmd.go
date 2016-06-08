@@ -27,9 +27,9 @@ import (
 	"sort"
 
 	"github.com/codegangsta/cli"
-	"github.com/gemhq/go-ethereum/cmd/utils"
-	"github.com/gemhq/go-ethereum/node"
-	"github.com/gemhq/go-ethereum/rpc"
+	"github.com/thedoctor/go-ethereum/cmd/utils"
+	"github.com/thedoctor/go-ethereum/node"
+	"github.com/thedoctor/go-ethereum/rpc"
 	"github.com/gizak/termui"
 )
 

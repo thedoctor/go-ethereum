@@ -25,14 +25,14 @@ import (
 	"time"
 
 	"github.com/codegangsta/cli"
-	"github.com/gemhq/go-ethereum/cmd/utils"
-	"github.com/gemhq/go-ethereum/common"
-	"github.com/gemhq/go-ethereum/core"
-	"github.com/gemhq/go-ethereum/core/state"
-	"github.com/gemhq/go-ethereum/core/types"
-	"github.com/gemhq/go-ethereum/core/vm"
-	"github.com/gemhq/go-ethereum/ethdb"
-	"github.com/gemhq/go-ethereum/logger/glog"
+	"github.com/thedoctor/go-ethereum/cmd/utils"
+	"github.com/thedoctor/go-ethereum/common"
+	"github.com/thedoctor/go-ethereum/core"
+	"github.com/thedoctor/go-ethereum/core/state"
+	"github.com/thedoctor/go-ethereum/core/types"
+	"github.com/thedoctor/go-ethereum/core/vm"
+	"github.com/thedoctor/go-ethereum/ethdb"
+	"github.com/thedoctor/go-ethereum/logger/glog"
 )
 
 var (

@@ -31,19 +31,19 @@ import (
 
 	"github.com/codegangsta/cli"
 	"github.com/ethereum/ethash"
-	"github.com/gemhq/go-ethereum/cmd/utils"
-	"github.com/gemhq/go-ethereum/common"
-	"github.com/gemhq/go-ethereum/core"
-	"github.com/gemhq/go-ethereum/eth"
-	"github.com/gemhq/go-ethereum/ethdb"
-	"github.com/gemhq/go-ethereum/internal/debug"
-	"github.com/gemhq/go-ethereum/logger"
-	"github.com/gemhq/go-ethereum/logger/glog"
-	"github.com/gemhq/go-ethereum/metrics"
-	"github.com/gemhq/go-ethereum/node"
-	"github.com/gemhq/go-ethereum/params"
-	"github.com/gemhq/go-ethereum/release"
-	"github.com/gemhq/go-ethereum/rlp"
+	"github.com/thedoctor/go-ethereum/cmd/utils"
+	"github.com/thedoctor/go-ethereum/common"
+	"github.com/thedoctor/go-ethereum/core"
+	"github.com/thedoctor/go-ethereum/eth"
+	"github.com/thedoctor/go-ethereum/ethdb"
+	"github.com/thedoctor/go-ethereum/internal/debug"
+	"github.com/thedoctor/go-ethereum/logger"
+	"github.com/thedoctor/go-ethereum/logger/glog"
+	"github.com/thedoctor/go-ethereum/metrics"
+	"github.com/thedoctor/go-ethereum/node"
+	"github.com/thedoctor/go-ethereum/params"
+	"github.com/thedoctor/go-ethereum/release"
+	"github.com/thedoctor/go-ethereum/rlp"
 )
 
 const (
@@ -147,7 +147,7 @@ participating.
 			Description: `
 The Geth console is an interactive shell for the JavaScript runtime environment
 which exposes a node admin interface as well as the Ðapp JavaScript API.
-See https://github.com/gemhq/go-ethereum/wiki/Javascipt-Console
+See https://github.com/thedoctor/go-ethereum/wiki/Javascipt-Console
 `,
 		},
 		{
@@ -157,7 +157,7 @@ See https://github.com/gemhq/go-ethereum/wiki/Javascipt-Console
 			Description: `
 		The Geth console is an interactive shell for the JavaScript runtime environment
 		which exposes a node admin interface as well as the Ðapp JavaScript API.
-		See https://github.com/gemhq/go-ethereum/wiki/Javascipt-Console.
+		See https://github.com/thedoctor/go-ethereum/wiki/Javascipt-Console.
 		This command allows to open a console on a running geth node.
 		`,
 		},
@@ -167,7 +167,7 @@ See https://github.com/gemhq/go-ethereum/wiki/Javascipt-Console
 			Usage:  `executes the given JavaScript files in the Geth JavaScript VM`,
 			Description: `
 The JavaScript VM exposes a node admin interface as well as the Ðapp
-JavaScript API. See https://github.com/gemhq/go-ethereum/wiki/Javascipt-Console
+JavaScript API. See https://github.com/thedoctor/go-ethereum/wiki/Javascipt-Console
 `,
 		},
 	}
