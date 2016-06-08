@@ -21,11 +21,11 @@ import (
 	"io/ioutil"
 
 	"github.com/codegangsta/cli"
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/logger"
-	"github.com/ethereum/go-ethereum/logger/glog"
+	"github.com/gemhq/go-ethereum/accounts"
+	"github.com/gemhq/go-ethereum/cmd/utils"
+	"github.com/gemhq/go-ethereum/crypto"
+	"github.com/gemhq/go-ethereum/logger"
+	"github.com/gemhq/go-ethereum/logger/glog"
 )
 
 var (

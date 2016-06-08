@@ -28,15 +28,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/compiler"
-	"github.com/ethereum/go-ethereum/common/httpclient"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/eth"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/node"
+	"github.com/gemhq/go-ethereum/accounts"
+	"github.com/gemhq/go-ethereum/common"
+	"github.com/gemhq/go-ethereum/common/compiler"
+	"github.com/gemhq/go-ethereum/common/httpclient"
+	"github.com/gemhq/go-ethereum/core"
+	"github.com/gemhq/go-ethereum/crypto"
+	"github.com/gemhq/go-ethereum/eth"
+	"github.com/gemhq/go-ethereum/ethdb"
+	"github.com/gemhq/go-ethereum/node"
 )
 
 const (
