@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/jsre"
-	"github.com/ethereum/go-ethereum/rpc"
+	"github.com/thedoctor/go-ethereum/jsre"
+	"github.com/thedoctor/go-ethereum/rpc"
 
 	"github.com/robertkrimen/otto"
 )
